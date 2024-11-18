@@ -1,0 +1,21 @@
+htmlbody{
+    padding:0;
+    margin:0;
+}
+#image{
+    position:absolute;
+    top:10px;
+    left:100px;
+    z-index:2;
+}
+p{
+    position:absolute;
+    top:200px;
+    left:100px;
+    z-index:1;
+}
+canvas{
+    position:relative;
+    width:100vw !important;
+    height:100vw!important;
+}
